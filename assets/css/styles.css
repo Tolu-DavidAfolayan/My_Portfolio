@@ -1,4 +1,4 @@
-/*! 
+/*!   
  * Template Name: Developer - Portfolio Landing Page Bootstrap 5 Template for Developers
  * Version: Bootstrap 5 v3.0
  * Author: Xiaoying Riley
@@ -172,12 +172,12 @@ a.dotted-link:hover {
 
 /* ======= Sections======= */
 .section {
-  margin-bottom: 15px; /* ADJUSTED: Reduced from 30px to 15px */
+  margin-bottom: 30px;
 }
 
 .section .section-inner {
   background: #fff;
-  padding: 15px; /* ADJUSTED: Reduced from 30px to 15px */
+  padding: 30px;
 }
 
 .section .heading {
@@ -820,4 +820,10 @@ body[data-theme="dark"] .text-muted {
     margin-bottom: 15px;
   }
 }
-/* REMOVED: The @media (min-width: 1400px) .container rule is removed here */
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1360px;
+    max-width: inherit;
+  }
+}
