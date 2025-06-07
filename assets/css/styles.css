@@ -1,4 +1,4 @@
-/*!   
+/*! 
  * Template Name: Developer - Portfolio Landing Page Bootstrap 5 Template for Developers
  * Version: Bootstrap 5 v3.0
  * Author: Xiaoying Riley
@@ -172,17 +172,17 @@ a.dotted-link:hover {
 
 /* ======= Sections======= */
 .section {
-  margin-bottom: 15px;
+  margin-bottom: 15px; /* ADJUSTED: Reduced from 30px to 15px */
 }
 
 .section .section-inner {
   background: #fff;
-  padding: 15px;
+  padding: 15px; /* ADJUSTED: Reduced from 30px to 15px */
 }
 
 .section .heading {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   color: #545e69;
   font-size: 24px;
 }
@@ -197,7 +197,7 @@ a.dotted-link:hover {
 /* About Section */
 /* Latest Section */
 .latest .item {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .latest .item .title {
@@ -225,11 +225,11 @@ a.dotted-link:hover {
 }
 
 .latest .divider {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .latest .featured {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .latest .featured .title {
@@ -239,7 +239,7 @@ a.dotted-link:hover {
 }
 
 .latest .featured .summary {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   color: #778492;
 }
 
@@ -248,7 +248,7 @@ a.dotted-link:hover {
 }
 
 .latest .featured .desc {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .latest .has-ribbon {
@@ -265,8 +265,8 @@ a.dotted-link:hover {
   position: absolute;
   top: -4px;
   right: -4px;
-  width: 80px;
-  height: 80px;
+  width: 110px;
+  height: 110px;
   overflow: hidden;
 }
 
@@ -820,9 +820,4 @@ body[data-theme="dark"] .text-muted {
     margin-bottom: 15px;
   }
 }
-
-@media (min-width: 1400px) {
-  .container {
-    max-width: 4000;
-  }
-}
+/* REMOVED: The @media (min-width: 1400px) .container rule is removed here */
