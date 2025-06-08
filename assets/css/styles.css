@@ -517,6 +517,12 @@ a.dotted-link:hover {
   font-weight: 300;
 }
 
+details[open] summary i.fa-chevron-down {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+
 /* Language Section */
 .languages .item {
   margin-bottom: 15px;
