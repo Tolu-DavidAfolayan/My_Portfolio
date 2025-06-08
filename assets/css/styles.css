@@ -492,7 +492,7 @@ a.dotted-link:hover {
 
 /* Education section */
 .education .item {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .education .item:last-child {
@@ -500,21 +500,21 @@ a.dotted-link:hover {
 }
 
 .education .item .title {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 0;
 }
 
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   color: #999;
-  font-weight: 600;
-  padding-left: 25px;
+  font-weight: 500;
+  padding-left: 15px;
 }
 
 .education .item .university .year {
   color: #b0b7bf;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Language Section */
