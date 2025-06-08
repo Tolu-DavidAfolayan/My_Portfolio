@@ -172,17 +172,17 @@ a.dotted-link:hover {
 
 /* ======= Sections======= */
 .section {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .section .section-inner {
   background: #fff;
-  padding: 10px;
+  padding: 20px;
 }
 
 .section .heading {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #545e69;
   font-size: 24px;
 }
@@ -202,7 +202,7 @@ a.dotted-link:hover {
 /* About Section */
 /* Latest Section */
 .latest .item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .latest .item .title {
@@ -244,16 +244,16 @@ a.dotted-link:hover {
 }
 
 .latest .featured .summary {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #778492;
 }
 
 .latest .featured img {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .latest .featured .desc {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .latest .has-ribbon {
@@ -313,7 +313,7 @@ a.dotted-link:hover {
 
 /* Projects Section */
 .projects .item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .projects .item .title {
@@ -363,7 +363,7 @@ a.dotted-link:hover {
 
 /* Git section */
 .github-graph {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .github-graph .js-calendar-graph-svg {
@@ -387,7 +387,7 @@ a.dotted-link:hover {
 
 /* Info Section */
 .info .svg-inline--fa {
-  margin-right: 10px;
+  margin-right: 15px;
   color: #ccd1d6;
 }
 
@@ -400,7 +400,7 @@ a.dotted-link:hover {
 }
 
 .info li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .info li:last-child {
@@ -409,11 +409,11 @@ a.dotted-link:hover {
 
 /* Skills Section */
 .skills .intro {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .skills .skillset .item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .skills .skillset .level-title {
@@ -451,7 +451,7 @@ a.dotted-link:hover {
 
 /* Testimonials section */
 .testimonials .item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .testimonials .item:last-child {
@@ -492,7 +492,7 @@ a.dotted-link:hover {
 
 /* Education section */
 .education .item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .education .item:last-child {
