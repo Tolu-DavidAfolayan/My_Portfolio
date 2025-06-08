@@ -492,7 +492,7 @@ a.dotted-link:hover {
 
 /* Education section */
 .education .item {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .education .item:last-child {
@@ -508,13 +508,13 @@ a.dotted-link:hover {
   font-family: "Lato", arial, sans-serif;
   font-size: 12px;
   color: #999;
-  font-weight: 500;
-  padding-left: 15px;
+  font-weight: 350;
+  padding-left: 10px;
 }
 
 .education .item .university .year {
   color: #b0b7bf;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* Language Section */
