@@ -506,15 +506,15 @@ a.dotted-link:hover {
 
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #999;
-  font-weight: 350;
+  font-weight: 450;
   padding-left: 10px;
 }
 
 .education .item .university .year {
   color: #b0b7bf;
-  font-weight: 300;
+  font-weight: 450;
 }
 
 details[open] summary i.fa-chevron-down {
