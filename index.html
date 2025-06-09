@@ -402,6 +402,131 @@
 		  </div><!--//section-inner-->
 		</aside><!--//section-->
 
+<aside class="education aside section">
+    <div class="section-inner shadow-sm rounded">
+        <h2 class="heading">Services</h2>
+        <div class="content">
+            <div class="item">
+                <details>
+                    <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <h5 class="title" style="margin: 0;"><i class="fas fa-chart-bar text-primary"></i> Data Analytics & Reporting</h5>
+                        <i class="fas fa-chevron-down custom-dropdown-icon"></i> </summary>
+                    <p class="summary">Turning raw data into actionable insights using tools like Excel, Power BI, and Python.</p>
+                </details>
+            </div>
+            <div class="item mt-3">
+                <details>
+                    <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <h5 class="title" style="margin: 0;"><i class="fas fa-database text-success"></i> SQL & Database Management</h5>
+                        <i class="fas fa-chevron-down custom-dropdown-icon"></i> </summary>
+                    <p class="summary">Database querying, management, optimization (PostgreSQL, MySQL, SQLite, and MongoDB.)</p>
+                </details>
+            </div>
+            <div class="item mt-3">
+                <details>
+                    <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <h5 class="title" style="margin: 0;"><i class="fas fa-project-diagram text-info"></i> Business Intelligence & Dashboards</h5>
+                        <i class="fas fa-chevron-down custom-dropdown-icon"></i> </summary>
+                    <p class="summary">Creating dynamic dashboards that visualize KPIs and drive strategic decisions.</p>
+                </details>
+            </div>
+            <div class="item mt-3">
+                <details>
+                    <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <h5 class="title" style="margin: 0;"><i class="fas fa-vials text-danger"></i> Quality Assurance & Testing</h5>
+                        <i class="fas fa-chevron-down custom-dropdown-icon"></i> </summary>
+                    <p class="summary">Running Manual, API, SQL testing for reliability and security.</p>
+                </details>
+            </div>
+            <div class="item mt-3">
+                <details>
+                    <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <h5 class="title" style="margin: 0;"><i class="fas fa-shield-alt text-warning"></i> API & Security Testing</h5>
+                        <i class="fas fa-chevron-down custom-dropdown-icon"></i> </summary>
+                    <p class="summary">Testing API endpoints, tracking data flow, and identifying vulnerabilities for secure backend operations.</p>
+                </details>
+            </div>
+            <div class="item mt-3">
+                <details>
+                    <summary style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;">
+                        <h5 class="title" style="margin: 0;"><i class="fas fa-headset text-secondary"></i> Technical & Customer Support</h5>
+                        <i class="fas fa-chevron-down custom-dropdown-icon"></i> </summary>
+                    <p class="summary">Offering friendly, technical assistance to boost user satisfaction and smoothen the customer journey.</p>
+                </details>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<aside class="client-feedback aside section">
+    <div class="section-inner shadow-sm rounded">
+        <h2 class="heading">Client Feedback & Ratings</h2>
+        <div class="content">
+            <div class="feedback-submission">
+                <h4>Leave Your Feedback:</h4>
+                <form id="feedbackForm" action="#" method="POST">
+                    <div class="rating-input mb-3">
+                        <label for="rating">Your Rating:</label>
+                        <div class="stars">
+                            <input type="radio" id="star5" name="rating" value="5" required /><label for="star5" title="5 stars">★</label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stars">★</label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stars">★</label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stars">★</label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star">★</label>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="clientName">Your Name (Optional):</label>
+                        <input type="text" class="form-control" id="clientName" name="clientName">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="feedbackComment">Your Feedback:</label>
+                        <textarea class="form-control" id="feedbackComment" name="feedbackComment" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Feedback</button>
+                </form>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="feedback-display">
+                <h4>Overall Client Rating:</h4>
+                <div class="overall-rating mb-3">
+                    <span id="averageRatingValue" class="display-4">4.5</span> / 5 Stars
+                    <div id="overallRatingStars" class="stars">
+                        <span class="fas fa-star text-warning"></span>
+                        <span class="fas fa-star text-warning"></span>
+                        <span class="fas fa-star text-warning"></span>
+                        <span class="fas fa-star text-warning"></span>
+                        <span class="fas fa-star-half-alt text-warning"></span>
+                    </div>
+                </div>
+
+                <h4>Recent Feedback:</h4>
+                <div id="feedbackList" class="list-group">
+                    <div class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Excellent Work!</h5>
+                            <small>Client A</small>
+                        </div>
+                        <p class="mb-1">David delivered exceptional insights that helped us optimize our sales strategy. Highly recommended!</p>
+                        <small>★★★★★</small>
+                    </div>
+                    <div class="list-group-item list-group-item-action flex-column align-items-start mb-2">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">Great analytical skills.</h5>
+                            <small>Client B</small>
+                        </div>
+                        <p class="mb-1">The dashboards were clear and actionable. Very professional.</p>
+                        <small>★★★★☆</small>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</aside>
+		    
+
             </div><!--//secondary-->    
         </div><!--//row-->
     </div><!--//masonry-->
